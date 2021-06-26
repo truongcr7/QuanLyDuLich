@@ -1,0 +1,439 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Project</title>
+    <link rel="stylesheet" href="1.css">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link href="https://fonts.googleapis.com/css2?family=Oswald&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Oswald:wght@600&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Source+Sans+Pro:wght@300&display=swap" rel="stylesheet">
+</head>
+<body>
+    <header class="bg-header">
+        <div class="btn-play fa fa-play"></div>
+        <div class="bg-video">
+            <video id="video">
+                <source src="template/video_embeded.mp4"> <div></div>
+            </video>
+            <div class="fa fa-times-circle close-video"></div>
+            <div class="fa fa-volume-down volume-down" id="volume"></div>
+        </div>
+        <div class="black-block">
+            <div class="contact">
+                <div class="content">
+                    <div class="accout">
+                        <a href="" class="fa fa-phone icon"><span class="phone"> +84982384024</span></a>
+                        <a href="" class="fa fa-facebook icon"></a>
+                        <a href="" class="fa fa-google-plus icon"></a>
+                        <a href="" class="fa fa-twitter icon"></a> 
+                    </div>
+                    <a href="" class="sign-in">Đăng nhập</a>
+                </div>
+            </div>
+            <div class="menu">
+                <div class="content">
+                    <div class="col1">
+                        <div class="_1item">
+                            <img src="images/bg-menu.png" alt="" class="bg-menu-1">
+                            <a href="" class="word">TRANG CHỦ</a>
+                            <img src="images/bg-menu.png" alt="" class="bg-menu-2">
+                        </div>
+                        <div class="_1item">
+                            <img src="images/bg-menu.png" alt="" class="bg-menu-1">
+                            <a href="" class="word">TOURIS</a>
+                            <img src="images/bg-menu.png" alt="" class="bg-menu-2">
+                        </div>
+                        <div class="_1item">
+                            <img src="images/bg-menu.png" alt="" class="bg-menu-1">
+                            <a href="" class="word">TỰ THIẾT KẾ</a>
+                            <img src="images/bg-menu.png" alt="" class="bg-menu-2">
+                        </div>
+                    </div>
+                    <div class="col1 col1--flex-end">
+                        <div class="_1item">
+                            <img src="images/bg-menu.png" alt="" class="bg-menu-1">
+                            <a href="" class="word">TIN TỨC</a>
+                            <img src="images/bg-menu.png" alt="" class="bg-menu-2">
+                        </div>
+                        <div class="_1item">
+                            <img src="images/bg-menu.png" alt="" class="bg-menu-1">
+                            <a href="" class="word">SỰ KIỆN</a>
+                            <img src="images/bg-menu.png" alt="" class="bg-menu-2">
+                        </div>
+                        <div class="_1item">
+                            <img src="images/bg-menu.png" alt="" class="bg-menu-1">
+                            <a href="" class="word">TÀI KHOẢN</a>
+                            <img src="images/bg-menu.png" alt="" class="bg-menu-2">
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="logo"></div>
+    </header>
+    <div class="hotel">
+        <div class="bg-black"></div>
+        <div class="all-item">
+            <div class="one-item add-img active">
+                <img src="images/hotel-icon.png" class="img-icon" alt="">
+                <span class="word">KHÁCH SẠN</span>
+                <img src="images/bg-menu.png" alt="" class="corner corner-left">
+            </div>
+            <div class="one-item">
+                <img src="images/person-icon.png" class="img-icon" alt="">
+                <span class="word">TOURIS</span>
+            </div>
+            <div class="one-item">
+                <img src="images/book-ticket-icon.png" class="img-icon" alt="">
+                <span class="word">ĐẶT VÉ</span>
+            </div>
+            <div class="one-item add-img">
+                <img src="images/car-icon.png" class="img-icon" alt="">
+                <span class="word">THUÊ XE</span>
+                <img src="images/bg-menu.png" alt="" class="corner corner-right">
+            </div>
+        </div>
+        <div class="search-item">
+            <div class="title"><span class="first">TÌM </span><span class="second">KHÁCH SẠN</span></div>
+            <div class="info">
+                <div class="place">
+                    <span class="place__name">Địa điểm?</span>
+                    <i class="fa fa-angle-down"></i>
+                    <div class="layer">
+                        <div class="_1row">Địa điểm?</div>
+                        <div class="_1row">Thành phố Đà Nẵng</div>
+                        <div class="_1row">Thành phố Hội An</div>
+                        <div class="_1row">Thành phố Huế</div>
+                    </div>
+                </div>
+                <input type="search" placeholder="Thời gian đi?" class="time-to-go">
+                <input type="search" placeholder="Thời gian về?" class="time-come-back">
+                <input type="search" placeholder="Khoảng giá?" class="price">
+                <a href="" class="btn-search">Tìm kiếm</a>
+            </div>
+        </div>
+    </div>
+    <div class="reason-choose">
+        <div class="title2"><span class="first">TẠI SAO </span><span class="second">CHỌN CHÚNG TÔI</span></div>
+        <h3 class="detail2">
+            Quay về truyền thống, tinh hoa dân tộc, chúng tôi
+            <br>
+            đưa đến bạn những trải nghiệm chân thật nhất của văn hóa người Việt.
+        </h3>
+        <div class="reason-block">
+            <div class="_1reason">
+                <div class="small-title"><span class="first">10 NĂM </span><span class="second">KINH NGHIỆM</span></div>
+                <div class="icon"><img src="images/icon-1.png" alt=""></div>
+                <div class="content">
+                    Kinh nghiệm của mình, chúng tôi
+                    <br>
+                    tự tin phục vụ quý khách.
+                    <br><br>
+                    Thực hiện hơn 2356 tours.
+                    <br><br>
+                    Nhận được nhiều ý kiến phản hồi
+                    <br>
+                    tốt của khách hàng trong chuyến.
+                    <br><br>
+                    Hơn 2031 nhà đồng hành cùng.
+                </div>
+                <a href="" class="btn-see-more">Xem Thêm</a>
+            </div>
+            <div class="_1reason">
+                <div class="small-title"><span class="first">CẬP NHẬT </span><span class="second">SỰ KIỆN</span></div>
+                <div class="icon"><img src="images/icon-2.png" alt=""></div>
+                <div class="content">
+                    Cập nhật sự kiện mới
+                    <br>
+                    nhanh nhất, rẻ nhất của năm.
+                    <br><br>
+                    Tặng kèm sản phẩm sự kiện.
+                    <br><br>
+                    Không tính thêm thuế hay dịch vụ
+                    <br>
+                    ngoài các sự kiện chính.
+                    <br><br>
+                    Hơn 103654 vé bán ra trong năm.
+                </div>
+                <a href="" class="btn-see-more">Xem Thêm</a>
+            </div>
+            <div class="_1reason">
+                <div class="small-title"><span class="first">CHỦ ĐỘNG </span><span class="second">THIẾT KẾ TOUR</span></div>
+                <div class="icon"><img src="images/icon-3.png" alt=""></div>
+                <div class="content">
+                    Tạo hành trình riêng bạn theo
+                    <br>
+                    cách của bạn và người thân.
+                    <br><br>
+                    Thoải mái chuyến đi xa.
+                    <br><br>
+                    Thủ tục gọn gàng, đơn giản
+                    <br>
+                    không thu thêm thuế.
+                    <br><br>
+                    Hơn 13535 chuyến đi được thực hiện.
+                </div>
+                <a href="" class="btn-see-more">Xem Thêm</a>
+            </div>
+            <div class="_1reason">
+                <div class="small-title"><span class="first">TIẾT KIỆM </span><span class="second">TỐI ĐA</span></div>
+                <div class="icon"><img src="images/icon-4.png" alt=""></div>
+                <div class="content">
+                    Tiết kiệm tối đa cho bạn
+                    <br>
+                    và người thân.
+                    <br><br>
+                    Các hóa đơn không thêm phí.
+                    <br><br>
+                    Không thu thuế thêm có thẻ
+                    <br>
+                    thanh toán nhỏ.
+                    <br><br>
+                    Hơn 13535 chuyến đi được thực hiện
+                </div>
+                <a href="" class="btn-see-more">Xem Thêm</a>
+            </div>
+        </div>
+    </div>
+    <div class="bg-selection">
+        <div class="title3"><span class="first">2 SỰ LỰA CHỌN </span><span class="second">CHO BẠN</span></div>
+        <div class="detail3">Chúng ta có tour sẵn hoặc bạn có thể thiết kế cho mình một tour theo ý của bạn</div>
+        <div class="_2selection">
+            <img src="images/first-selection.png" alt="" class="first-selection">
+            <img src="images/second-selection.png" alt="" class="second-selection">
+        </div>
+    </div>
+    <div class="view">
+        <div class="title4"><span class="first">CẢNH SẮC </span><span class="second">MIỀN TRUNG</span></div>
+        <div class="detail4">
+            Chúng tôi xin giới thiệu khách hàng yêu quý của mình các địa điểm du lịch đậm chất dân tộc Việt Nam.
+            <br>
+            Để có thể cảm nhận rõ hơn, mời bạn vào thăm các địa điểm của TRUNGVIVU.
+        </div>
+        <div class="all-pictures">
+            <div class="_1picture">
+                <img src="images/picture_1.png" alt="" class="picture_bg">
+                <img src="images/ball_1.png" alt="" class="picture_ball1">
+            </div>
+            <div class="_1picture">
+                <img src="images/picture_2.png" alt="" class="picture_bg">
+                <img src="images/ball_2.png" alt="" class="picture_ball2">
+            </div>
+            <div class="_1picture">
+                <img src="images/picture_3.png" alt="" class="picture_bg">
+                <img src="images/ball_3.png" alt="" class="picture_ball3">
+            </div>
+        </div>
+    </div>
+    <div class="result">
+        <div class="title5"><span class="first">THÀNH TÍCH </span><span class="second">HƠN 5 NĂM QUA</span></div>
+        <div class="detail5">
+            Cảm ơn quý khách đã luôn đồng hành cùng TRUNGVIVU để thực hiện những chuyến tour du lịch
+            <br>
+            nhiều kỉ niệm và thành công. Chúng tôi sẽ luôn ở đây để phục vụ quý khách.
+        </div>
+        <div class="result-detail">
+            <div class="blurred">
+                <div class="result1">
+                    <div class="number">
+                        <img src="images/bg-menu.png" alt="" class="rs-img1">
+                        <span>2356</span>
+                        <img src="images/bg-menu.png" alt="" class="rs-img2">
+                    </div>
+                    <div class="des">SỐ TOUR ĐÃ THỰC HIỆN</div>
+                </div>
+                <div class="result2">
+                    <div class="number">
+                        <img src="images/bg-menu.png" alt="" class="rs-img1">
+                        <span>52</span>
+                        <img src="images/bg-menu.png" alt="" class="rs-img2">
+                    </div>
+                    <div class="des">GIẢI THƯỞNG TOUR UY TÍN, CHẤT LƯỢNG</div>
+                </div>
+                <div class="result3">
+                    <div class="number">
+                        <img src="images/bg-menu.png" alt="" class="rs-img1">
+                        <span>18733</span>
+                        <img src="images/bg-menu.png" alt="" class="rs-img2">
+                    </div>
+                    <div class="des">LƯỢT TRUY CẬP</div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="activity-tour">
+        <div class="title6"><span class="first">HOẠT ĐỘNG </span><span class="second">TRONG TOUR</span></div>
+        <div class="detail6">
+            Chúng tôi xin gửi đến quý khách hàng những hoạt động có trong tour của mình. Để khách hàng có thể tự mình trải nghiệm
+            <br>
+            những ngành nghề truyền thống của dân Việt, hay những hoạt động nổi tiếng ở thành phố của ta.
+        </div>
+        <div class="_4activity">
+            <div class="activity1">
+                <div class="name-act"><span class="first">DU LỊCH BIỂN VÀ HOẠT ĐỘNG BIỂN </span><span class="second">ĐÀ NẴNG</span></div>
+                <div class="des1">BIỂN GHỀNH BÀNG</div>
+                <div class="des2">THẾ GIỚI ĐẠI DƯƠNG</div>
+            </div>
+            <div class="activity2">
+                <div class="name-act"><span class="first">DU LỊCH PHỐ CỔ CỦA THÀNH PHỐ </span><span class="second">HỘI AN</span></div>
+                <div class="des1">NGHỆ THUẬT CỔ XƯA</div>
+                <div class="des2">TRÃI PHỐ CỔ ĐÈN LỒNG</div>
+            </div>
+            <div class="activity3">
+                <div class="name-act"><span class="first">DU LỊCH KINH THÀNH THÀNH PHỐ </span><span class="second">HUẾ</span></div>
+                <div class="des1">THÀNH PHỐ HỘI NHẬP</div>
+                <div class="des2">HÒA THANH ÁNH SÁNG</div>
+            </div>
+            <div class="activity4">
+                <div class="name-act"><span class="first">DU LỊCH PHỐ CỔ CỦA THÀNH PHỐ </span><span class="second">HỘI AN</span></div>
+                <div class="des1">NGHỆ THUẬT GIA TRUYỀN</div>
+                <div class="des2">KHÁM PHÁ LÀNG GỐM LÂU ĐỜI</div>
+            </div>
+        </div>
+    </div>
+    <div class="event">
+        <div class="title7"><span class="first">SỰ KIỆN LỚN </span><span class="second">NĂM 2017</span></div>
+        <div class="detail7">
+            Chúng tôi xin gửi đến quý khách hàng những hoạt động có trong tour của mình. Để khách hàng có thể tự mình trải nghiệm
+            <br>
+            những ngành nghề truyền thống của dân Việt, hay những hoạt động nổi tiếng ở thành phố của ta.
+        </div>
+        <div class="_3event">
+            <div class="event1">
+                <div class="blurred-event">
+                    <img src="images/icon_event.png" alt="" class="icon-event">
+                    <div class="name-event"><span class="first">COCOFEST </span><span class="second">ĐÀ NẴNG</span></div>
+                    <div class="detail-event">
+                        Với sự góp mặt của hơn 50 ca nhạc sĩ
+                        <br>
+                        15 nhóm nhạc và 6 nhóm nhảy.
+                        <br>
+                        Bạn sẽ không thể bỏ lỡ lễ hội lớn nhất này, chắc chắn nó sẽ
+                        <br>
+                        mang lại cho bạn những đêm không thể quên.
+                    </div>
+                    <div class="time-place-event">
+                        Thời gian: 02/09/2017
+                        <br>
+                        Địa điểm: Sông Hàn
+                    </div>
+                </div>
+            </div>
+            <div class="event2">
+                <div class="blurred-event">
+                    <img src="images/icon_event.png" alt="" class="icon-event">
+                    <div class="name-event"><span class="first">COCOFEST </span><span class="second">ĐÀ NẴNG</span></div>
+                    <div class="detail-event">
+                        Với sự góp mặt của hơn 50 ca nhạc sĩ
+                        <br>
+                        15 nhóm nhạc và 6 nhóm nhảy.
+                        <br>
+                        Bạn sẽ không thể bỏ lỡ lễ hội lớn nhất này, chắc chắn nó sẽ
+                        <br>
+                        mang lại cho bạn những đêm không thể quên.
+                    </div>
+                    <div class="time-place-event">
+                        Thời gian: 02/09/2017
+                        <br>
+                        Địa điểm: Sông Hàn
+                    </div>
+                </div>
+            </div>
+            <div class="event3">
+                <div class="blurred-event">
+                    <img src="images/icon_event.png" alt="" class="icon-event">
+                    <div class="name-event"><span class="first">COCOFEST </span><span class="second">ĐÀ NẴNG</span></div>
+                    <div class="detail-event">
+                        Với sự góp mặt của hơn 50 ca nhạc sĩ
+                        <br>
+                        15 nhóm nhạc và 6 nhóm nhảy.
+                        <br>
+                        Bạn sẽ không thể bỏ lỡ lễ hội lớn nhất này, chắc chắn nó sẽ
+                        <br>
+                        mang lại cho bạn những đêm không thể quên.
+                    </div>
+                    <div class="time-place-event">
+                        Thời gian: 02/09/2017
+                        <br>
+                        Địa điểm: Sông Hàn
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <footer class="bg-footer">
+        <div class="blurred-footer">
+            <img src="images/logo.png" alt="" class="logo">
+            <div class="search">
+                <div class="btn-search"><i class="fa fa-search" aria-hidden="true"></i></div>
+                <input type="search" placeholder="Tìm kiếm">
+            </div>
+            <div class="detail-footer">
+                <div class="_1footer">
+                    <div class="footer-title">ĐỊA CHỈ</div>
+                    <div class="footer-des">
+                        <i class="fa fa-map-marker icon-footer" aria-hidden="true"></i>
+                        36 Thành Thái, Quận 10, TP HCM
+                    </div>
+                    <div class="footer-des">
+                        <i class="fa fa-phone icon-footer" aria-hidden="true"></i>
+                        0982384024
+                    </div>
+                    <div class="footer-des">
+                        <i class="fa fa-envelope-o icon-footer" aria-hidden="true"></i>
+                        trungvivu.com
+                    </div>
+                </div>
+                <div class="_1footer">
+                    <div class="footer-title">TOUR</div>
+                    <div class="footer-des">
+                        <i class="fa fa-circle icon-footer" aria-hidden="true"></i>
+                        Thành phố Đà Nẵng
+                    </div>
+                    <div class="footer-des">
+                        <i class="fa fa-circle icon-footer" aria-hidden="true"></i>
+                        Thừa Thiên Huế
+                    </div>
+                    <div class="footer-des">
+                        <i class="fa fa-circle icon-footer" aria-hidden="true"></i>
+                        Thành phố Hội An
+                    </div>
+                </div>
+                <div class="_1footer">
+                    <div class="footer-title">KHÁCH SẠN</div>
+                    <div class="footer-des">
+                        <i class="fa fa-circle icon-footer" aria-hidden="true"></i>
+                        Khách sạn Sao Mai
+                    </div>
+                    <div class="footer-des">
+                        <i class="fa fa-circle icon-footer" aria-hidden="true"></i>
+                        Khách sạn Sarina
+                    </div>
+                    <div class="footer-des">
+                        <i class="fa fa-circle icon-footer" aria-hidden="true"></i>
+                        Khách sạn Matel
+                    </div>
+                </div>
+                <div class="_1footer">
+                    <div class="footer-title">NHÀ HÀNG</div>
+                    <div class="footer-des">
+                        <i class="fa fa-circle icon-footer" aria-hidden="true"></i>
+                        Nhà hàng Tokyo
+                    </div>
+                    <div class="footer-des">
+                        <i class="fa fa-circle icon-footer" aria-hidden="true"></i>
+                        Nhà hàng Hoàng Mỹ
+                    </div>
+                    <div class="footer-des">
+                        <i class="fa fa-circle icon-footer" aria-hidden="true"></i>
+                        Nhà hàng Hồ
+                    </div>
+                </div>
+            </div>
+        </div>
+    </footer>
+    <script src="1.js"></script>
+</body>
+</html>
